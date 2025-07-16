@@ -9,7 +9,11 @@ const Stats = () => {
             Highly automated businesses are 6x more likely to see significant revenue growth
           </h2>
           <div className="flex justify-center mb-8">
-            <Button variant="outline" asChild>
+            <Button 
+              variant="outline" 
+              asChild
+              className="text-foreground hover:bg-gradient-to-r hover:from-purple-500 hover:to-blue-500 hover:text-white transition-all duration-300"
+            >
               <a href="#processes">
                 <span className="mr-2">→</span>
                 Check the list of our Automated Processes

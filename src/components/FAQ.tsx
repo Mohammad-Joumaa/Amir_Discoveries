@@ -1,38 +1,45 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import automationFlowImg from "@/assets/automation-flow.jpg";
+import automationFlowImg from "@/assets/FAQ.png";
 
 const FAQ = () => {
   const faqs = [
     {
-      question: "What Is Your Service Fee?",
-      answer: "Our service fees are customized based on your specific automation needs and the complexity of your workflows. We offer flexible pricing models including project-based and ongoing support options."
+      question: "How Much Does It Cost?",
+      answer: "Investment varies depending on your project scope and automation requirements. We provide transparent pricing with both one-time project rates and monthly retainer options tailored to fit your budget and goals."
     },
     {
-      question: "What's Your Guarantee?",
-      answer: "We guarantee that our automation solutions will save you time and increase productivity. If you're not satisfied with the results within the first 30 days, we'll work with you to make it right or provide a full refund."
+      question: "Do You Offer Any Guarantees?",
+      answer: "We stand behind our work with a 30-day satisfaction promise. Our automation systems are designed to deliver measurable improvements in efficiency and productivity - if we don't meet your expectations, we'll make it right."
     },
     {
-      question: "Am I Qualified To Work With Axe Automation?",
-      answer: "If you have repetitive tasks, manual processes, or workflows that could benefit from automation, you're qualified! We work with businesses of all sizes across various industries."
+      question: "Is My Business A Good Fit?",
+      answer: "Perfect fit if you're spending hours on repetitive tasks or managing complex workflows manually. We partner with forward-thinking businesses ready to scale smarter, regardless of company size or industry."
+    },
+  {
+      question: "What If I Need Changes After Implementation?",
+      answer: "Business needs evolve, and so do our solutions. We provide ongoing optimization and can modify workflows as your processes change. Most adjustments are included in our support packages."
+},
+    {
+  question: "Can You Handle Social Media Management?",
+  answer: "Yes! We automate your entire social media workflow including Pinterest. From content creation and scheduling to analytics and performance optimization - we've got your social presence covered."
+},
+    {
+      question: "Which Industries Do You Work With?",
+      answer: "Our automation expertise spans e-commerce, healthcare, finance, real estate, marketing agencies, and SaaS platforms. Any business with repetitive workflows and data management challenges can benefit from our solutions."
     },
     {
-      question: "How Long Are Your Contracts?",
-      answer: "We offer flexible contract terms ranging from project-based work to ongoing monthly support. Most clients start with a 3-6 month implementation period, followed by optional ongoing maintenance contracts."
-    },
-    {
-      question: "Do You Also Offer Pinterest Content Management?",
-      answer: "Yes! We can automate social media management including Pinterest content scheduling, posting, and analytics reporting as part of our comprehensive automation solutions."
-    }
+  question: "How Do You Protect My Information?",
+  answer: "Your information stays completely secure and under your control. We implement bank-level security measures and privacy safeguards, ensuring you retain full ownership of all your business data throughout our partnership."
+}
   ];
-
   return (
     <section className="py-20 bg-muted/30">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           <div>
             <h2 className="text-4xl font-bold text-foreground mb-8">
-              Take a Look <br />
-              <span className="text-brand-purple">into How we Work</span>
+              How We Turn Your Vision Into Results <br />
+              <span className="text-brand-purple">By Simplifying Complex Processes</span>
             </h2>
             
             <div className="aspect-video overflow-hidden rounded-lg shadow-lg">

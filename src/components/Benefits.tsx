@@ -1,12 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import workspaceImg from "@/assets/workspace.jpg";
+import workspaceImg from "@/assets/pics-01.jpg";
 
 const Benefits = () => {
   const benefits = [
-    "More focus on strategic work vs. manual work",
-    "No more bottlenecks or delays", 
-    "Higher output per employee"
+    "Automate client communication and workflows",
+    "Get insights instantly, without digging through files", 
+    "Free up your team to focus on high-impact work"
   ];
 
   return (
@@ -15,15 +15,15 @@ const Benefits = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl font-bold text-foreground mb-6">
-              Put repetitive tasks on autopilot
+             ⚡️Work Smarter, Not Harder with AI Systems
             </h2>
             
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              You're not in the business of preparing documents, filling spreadsheets, copying data, or writing the same emails every day.
+              You're not in the business of logging data, chasing follow-ups, answering the same messages, or wasting hours on admin tasks.
             </p>
             
             <p className="text-lg font-semibold text-foreground mb-8">
-              You are in the business of delivering results to your clients.
+             Your time is better spent on closing deals and growing your business.
             </p>
 
             <div className="space-y-4 mb-8">
@@ -35,18 +35,23 @@ const Benefits = () => {
               ))}
             </div>
 
-            <Button variant="cta" size="lg" asChild>
+            <Button 
+              variant="cta" 
+              size="lg" 
+              className="text-lg px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105"
+              asChild
+            >
               <a href="#consultation">Book a Free Call →</a>
             </Button>
           </div>
 
-          <div className="relative">
+          <div className="relative w-full max-w-2xl mx-auto lg:mx-0 lg:ml-8"> {/* Reduced lg:ml-16 to lg:ml-8 */}
             <Card className="overflow-hidden shadow-2xl">
               <CardContent className="p-0">
                 <img 
                   src={workspaceImg} 
                   alt="Modern workspace with automation tools" 
-                  className="w-full h-full object-cover"
+                  className="w-full h-96 object-cover"
                 />
               </CardContent>
             </Card>
