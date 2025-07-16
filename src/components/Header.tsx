@@ -273,7 +273,7 @@ const Header = () => {
 
             {/* Book A Call Button & NEW Login Button Desktop */}
             <div className="hidden md:flex items-center space-x-4">
-              <Button
+              {/* <Button
                 // Updated classes for a more creative look
                 className="
                   transition-all duration-300
@@ -287,7 +287,7 @@ const Header = () => {
                 onClick={handleLoginRedirect}
               >
                 Login / Sign Up
-              </Button>
+              </Button> */}
               <Button
                 variant="cta"
                 size="sm"
